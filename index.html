@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            An introduction to Core Protocols
+        </section>
+
+        <section>
+            Why? Miscommunication
+            TODO: have an illustration to show this instead
+        </section>
+
+        <section>The Core Commitments
+
+            <section>
+                I commit to engage when present
+            </section>
+
+            <section><p>I commit to to know and disclose</p>
+                <ul>
+                    <li class="fragment">what I want</li>
+                    <li class="fragment">what I think</li>
+                    <li class="fragment">and what I feel</li>
+                </ul>
+            </section>
+
+            <section>
+                I will personally support the best idea
+            </section>
+            <section>
+                I will seek to perceive more than I seek to be perceived
+            </section>
+
+            <section>
+                I will use teams, especially when undertaking difficult tasks
+            </section>
+
+            <section>
+                I will speak always and only when I believe it will improve the general results/effort ratio
+            </section>
+
+            <section>
+                <p>I will disengage from less productive situations</p>
+                <ul>
+                    <li class="fragment">When I cannot keep these commitments</li>
+                    <li class="fragment"> When it is more important that I engage elsewhere</li>
+                </ul>
+            </section>
+
+            <section>
+                I will seek to move forward toward a particular goal, by biasing my behavior toward action
+            </section>
+        </section>
+
+        <section>Pass & Unpass
+            <section>
+                The Pass protocol is how you decline to participate in something. Use it anytime you don’t want to
+                participate in an activity.
+            </section>
+        </section>
+        <section>Check In
+            <section>Use Check In to begin meetings or anytime an individual or group Check In would add more value to
+                the current team interactions.
+            </section>
+        </section>
+        <section>Check Out
+            <section>Check Out requires that your physical presence always signifies your engagement. You must Check Out
+                when you are aware that you cannot maintain the Core Commitments or whenever it would be better for you
+                to be elsewhere.
+            </section>
+        </section>
+        <section>Decider
+            <section>
+                Use Decider anytime you want to move a group immediately and unanimously towards results.
+            </section>
+        </section>
+        <section>Resolution
+            <section>When a Decider vote yields a small minority of outliers, the proposer quickly leads the team, in a
+                highly structured fashion, to deal with the outliers. The Resolution protocol promotes forward momentum
+                by focusing on bringing outliers in at least cost.
+            </section>
+        </section>
+        <section>Investigate
+            <section>Investigate allows you to learn about a phenomenon that occurs in someone else. Use it when an idea
+                or behavior someone is presenting seems poor, confusing, or simply interesting.
+            </section>
+        </section>
+
+        <section>
+            <h3>Licence</h3>
+            The Core Protocols are available at <a href="http://www.mccarthyshow.com/online/">http://www.mccarthyshow.com/online/</a>
+        </section>
+
+        <section>
+            The Core is distributed under the terms of the GNU-PL. For exact terms see
+            <a href="http://www.gnu.org/licenses/gpl.txt">http://www.gnu.org/licenses/gpl.txt</a>. The Core is
+            considered as source code under that agreement. You are
+            free to use and distribute this work or any derivations you care to make, provided you also distribute this
+            source document in its entirety, including this paragraph.
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
